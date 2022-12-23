@@ -4,14 +4,14 @@
 
 Method : GET/POST
 
-        https://www.tnpick.com/sho/api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY}&token={TOKEN} 
+        https://www.tnpick.com/sho/api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY} 
 
 
 | 매크로명  | 설명   |
 |--|--|
 | PRD_ID | 상품 ID  |
-| AUTH_KEY  | 인증 KEY - 연동에 필요한 KEY로서 TNK 대시보드에서 확인 가능함. |
-| TOKEN  | PRD_DI + AUTH_KEY를 MD5 HASH한 값이다.  |
+| AUTH_KEY  | 연동인증 키(TNK대시보드에서 확인) + PRD_ID를 MD5 Hash 한 값 |
+
 
 
 ## Response
