@@ -8,9 +8,9 @@ Method : GET/POST
 
 | 매크로명  | 설명   |
 |--|--|
-| PRD_ID | 상품ID  |
-| AUTH_KEY  | 인증KEY  |
-| TOKEN  | 인증토큰  |
+| PRD_ID | 상품 ID  |
+| AUTH_KEY  | 인증 KEY - 연동에 필요한 KEY로서 TNK 대시보드에서 확인 가능함. |
+| TOKEN  | PRD_DI + AUTH_KEY를 MD5 HASH한 값이다.  |
 
 Response:
 type : JSON
@@ -22,7 +22,8 @@ type : JSON
     rank_list : [
                    { idol_name : text, rank : int, donation_count : int}, { ... }, ...
                 ]
-  }
+    }
+  
 
 | 컬럼명| 설명   | 설명 |
 |--|--|--|
