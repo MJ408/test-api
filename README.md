@@ -1,6 +1,6 @@
 # 아이돌 리스트 조회 API
 
-##Request  
+## Request  
 
 Method : GET/POST
 
@@ -14,7 +14,7 @@ Method : GET/POST
 | TOKEN  | PRD_DI + AUTH_KEY를 MD5 HASH한 값이다.  |
 
 
-##Response
+## Response
 type : JSON
 
     { res_cd : 1 (succes) or -1 (fail_1) or -2 (fail_2) or ...
