@@ -5,7 +5,7 @@ Method : GET/POST
 
         https://www.tnpick.com/sho/api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY}&token={TOKEN} 
 
----
+
 | 매크로명  | 설명   |
 |--|--|
 | PRD_ID | 상품ID  |
