@@ -4,7 +4,7 @@
 
 Method : GET/POST
 
-        https://www.tnpick.com/sho/api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY} 
+        https://domain_url/api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY} 
 
 
 | 매크로명  | 설명   |
