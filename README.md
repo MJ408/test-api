@@ -4,7 +4,7 @@
 
 Method : GET/POST
 
-        https://domain_url/api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY} 
+        /api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY} 
 
 
 | 매크로명  | 설명   |
